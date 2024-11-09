@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            Ishita <span>Bhattacharya</span>
+        </div>
+
+        <div class="nav-container">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="content">
+                <h1>Hey I'm <span>Ishita</span></h1><br>
+                <div class="typewriter">I'm a <span class="typewriter-text"></span><label for="">|</label></div><br>
+                <p>As a passionate web developer with expertise in HTML, CSS, and JavaScript, I specialize in creating dynamic, responsive websites and user-friendly interfaces. My skill set allows me to bring web concepts to life, ensuring optimal performance and visually engaging designs. With a keen eye for detail and a commitment to best practices, I focus on delivering projects that enhance user experience and meet modern web standards. I'm driven by a love for continuous learning and am always excited to take on new challenges to expand my capabilities in front-end development.
+                </p>
+                <div class="social-links">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <button>Downoad CV</button>
+            </div>
+            <div class="image">
+                <img src="IMG-20230806-WA0037.jpg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>
